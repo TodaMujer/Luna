@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TodaMujer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="img_item">Imagen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sintomas">Sintomas</string>
+    <string name="title_activity_detalle_sintoma">Detalles de sintomas</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_embarazo">EmbarazoActivity</string>
+    <string name="title_activity_calendario">CalendarioActivity</string>
+    <string name="title_activity_humor">HumorActivity</string>
+
+
+    <string name="lblEmbarazo">Embarazo</string>
+    <string name="lblSintomas">Sintomas</string>
+    <string name="lblCalendario">Calendario</string>
+    <string name="lblHumor">Estado de humor</string>
+
+
+    <string name="LblMes1">Mes 1</string>
+    <string name="LblMes2">Mes 2</string>
+    <string name="LblMes3">Mes 3</string>
+    <string name="LblMes4">Mes 4</string>
+    <string name="LblMes5">Mes 5</string>
+    <string name="LblMes6">Mes 6</string>
+    <string name="LblMes7">Mes 7</string>
+    <string name="LblMes8">Mes 8</string>
+    <string name="LblMes9">Mes 9</string>
+    <string name="title_activity_detalle_humor">Detalle Humor</string>
+
+
+    <string name="DetallesMes1"></string>
+    <string name="DetallesMes2"></string>
+    <string name="DetallesMes3"></string>
+    <string name="DetallesMes4"></string>
+    <string name="DetallesMes5"></string>
+    <string name="DetallesMes6"></string>
+    <string name="DetallesMes7"></string>
+    <string name="DetallesMes8"></string>
+    <string name="DetallesMes9"></string>
+    <string name="title_activity_detalles_meses">DetallesMesesActivity</string>
+    <string name="title_activity_detalle_embarazo">Detalle Embarazo</string>
+
+
+
+</resources>

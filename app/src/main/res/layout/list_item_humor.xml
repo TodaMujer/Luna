@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#CC0066"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/ImgItemHumor"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/img_item"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LblHumor"
+        android:layout_toRightOf="@+id/ImgItemHumor"
+        android:singleLine="false"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:textColor="#FFCCFF"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CC0066"
+    tools:context="todamujer.utsjr.com.todamujer.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/menu_embarazo"
+            android:id="@+id/BtnEmbarazo"
+
+            />
+
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/menu_sintomas"
+            android:id="@+id/BtnSintomas"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="@string/lblEmbarazo"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="@string/lblSintomas"
+            android:textSize="25dp"
+            android:textAlignment="center"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/menu_calendario"
+            android:id="@+id/BtnCalendario"
+            />
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/menu_humor"
+            android:id="@+id/BtnHumor"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="@string/lblCalendario"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="@string/lblHumor"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            />
+
+
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

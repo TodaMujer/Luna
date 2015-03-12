@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="todamujer.utsjr.com.todamujer" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SintomasActivity"
+            android:label="@string/title_activity_sintomas" >
+        </activity>
+        <activity
+            android:name=".DetalleSintomaActivity"
+            android:label="@string/title_activity_detalle_sintoma" >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".EmbarazoActivity"
+            android:label="@string/title_activity_embarazo" >
+        </activity>
+        <activity
+            android:name=".CalendarioActivity"
+            android:label="@string/title_activity_calendario" >
+        </activity>
+        <activity
+            android:name=".HumorActivity"
+            android:label="@string/title_activity_humor" >
+        </activity>
+        <activity
+            android:name=".DetalleHumorActivity"
+            android:label="@string/title_activity_detalle_humor" >
+        </activity>
+        <activity
+            android:name=".DetallesMesesActivity"
+            android:label="@string/title_activity_detalles_meses" >
+        </activity>
+        <activity
+            android:name=".DetalleEmbarazoActivity"
+            android:label="@string/title_activity_detalle_embarazo" >
+        </activity>
+    </application>
+
+</manifest>

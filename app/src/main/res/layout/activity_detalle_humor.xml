@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CC0066"
+    tools:context="todamujer.utsjr.com.todamujer.DetalleHumorActivity">
+
+
+    <TextView
+        android:id="@+id/LblHumor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="#FFCCFF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LblDetallesHumor"
+        android:textSize="18sp"
+        android:textColor="#FFCCFF"
+        />
+
+</LinearLayout>
