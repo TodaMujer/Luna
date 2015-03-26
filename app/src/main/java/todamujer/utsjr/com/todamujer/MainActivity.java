@@ -7,51 +7,42 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.SubMenu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
-
-
-
-
-    private static final int MENU_MENU=1;
-    private static final int MENU_AYUDA=2;
-    private static final int MENU_FAVORITO=3;
-    private static final int MENU_CONOCENOS=34;
-
-    private static final int SUBMENU_MENU_CALENDARIO=11;
-    private static final int SUBMENU_MENU_SINTOMAS=12;
-    private static final int SUBMENU_MENU_HUMOR=13;
-    private static final int SUBMENU_MENU_EMBARAZO=14;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        Button boton= (Button) findViewById(R.id.Ingresar);
+        boton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String usuario=((EditText)findViewById(R.id.txtUsuario)).getText().toString();
+                String contraseña=((EditText)findViewById(R.id.txtContraseña)).getText().toString();
+                if(usuario.equals("luna")&& contraseña.equals("luna")){
+                    Intent nuevo=new Intent(MainActivity.this,Inicio.class);
+                    startActivity(nuevo);
+                }
+                else {
+                    Toast.makeText(getApplicationContext(), "Usuario o Contraseña Incorrecta", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        //getMenuInflater().inflate(R.menu.menu_main, menu);
-
-
-        menu.add(Menu.NONE,MENU_MENU,Menu.NONE,"Menu");
-
-
-
-        menu.add(Menu.NONE,MENU_AYUDA,Menu.NONE,"Ayuda");
-        menu.add(Menu.NONE,MENU_FAVORITO,Menu.NONE,"Favoritos");
-        menu.add(Menu.NONE,MENU_CONOCENOS,Menu.NONE,"Conocenos");
-
-
-
-
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -63,20 +54,19 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        switch(id){
-
-            case MENU_MENU:
-                Intent intent=new Intent(MainActivity.this,MenuActivity.class);
-                startActivity(intent);
-                return true;
-
-            case MENU_CONOCENOS:return true;
-            case MENU_AYUDA:return true;
-            case MENU_FAVORITO: return true;
-            default: return super.onOptionsItemSelected(item);
+        if (id == R.id.action_settings) {
+            return true;
         }
 
-
-
+        return super.onOptionsItemSelected(item);
     }
 }
+
+
+
+
+
+
+
+
+

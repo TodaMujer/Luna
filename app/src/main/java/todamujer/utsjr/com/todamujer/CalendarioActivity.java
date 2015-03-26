@@ -26,7 +26,7 @@ public class CalendarioActivity extends ActionBarActivity {
                                             int dayOfMonth) {
                 // TODO Auto-generated method stub
 
-                Toast.makeText(getBaseContext(),"Selected Date is\n\n"
+                Toast.makeText(getBaseContext(),"Seleccionaste el dia: \n\n"
                                 +dayOfMonth+" : "+month+" : "+year ,
                         Toast.LENGTH_SHORT).show();
             }
