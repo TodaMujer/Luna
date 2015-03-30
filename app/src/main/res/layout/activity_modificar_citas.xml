@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="todamujer.utsjr.com.todamujer.ModificarCitas">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LblModificarTitulo"
+        android:textSize="25sp"
+
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CitaFecha"
+        android:textSize="15sp"  />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtFecha"
+        android:inputType="text" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CitaHora"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtHora"
+        android:inputType="text" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CitaNombre"
+        android:textSize="15sp"  />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtNombre"
+        android:inputType="number"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CitaTipo"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtTipo"
+        android:inputType="text"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CitaNumero"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtNumero"
+        android:inputType="text"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CitaUbicacion"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtUbicacion"
+        android:inputType="text"
+
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:id="@+id/ModificarBtnRegistrar"
+            android:text="@string/ModificarbtnRegistrar"
+
+            android:textColor="#ffffffff"
+            android:background="#ff3baaa3"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:id="@+id/ModificarBtnRegresar"
+            android:text="@string/ModificarbtnRegresar"
+
+            android:textColor="#ffffffff"
+            android:background="#ff3baaa3"
+            android:textStyle="bold|normal" />
+    </LinearLayout>
+</LinearLayout>

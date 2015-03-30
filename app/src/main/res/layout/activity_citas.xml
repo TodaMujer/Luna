@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="todamujer.utsjr.com.todamujer.CitasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MainLblTitulo"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:background="#ff000000"
+            android:textColor="#ffffffff"
+            android:textStyle="bold|normal" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnAgregarCita"
+        android:text="@string/btnAgregarCita"
+
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:id="@+id/LstCitas"
+
+        android:layout_weight="0.51" />
+
+</LinearLayout>

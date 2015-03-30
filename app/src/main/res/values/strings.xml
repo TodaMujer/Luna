@@ -11,14 +11,11 @@
     <string name="title_activity_embarazo">EmbarazoActivity</string>
     <string name="title_activity_calendario">CalendarioActivity</string>
     <string name="title_activity_humor">HumorActivity</string>
-
-
-    <string name="lblEmbarazo">Embarazo</string>
-    <string name="lblSintomas">Sintomas</string>
-    <string name="lblCalendario">Calendario</string>
-    <string name="lblHumor">Estado de humor</string>
-
-
+    <string name="lblEmbarazo">EMBARAZO</string>
+    <string name="lblSintomas">SINTOMAS</string>
+    <string name="lblCalendario">CALENDARIO</string>
+    <string name="lblHumor">ESTADOS DE HUMOR</string>
+    <string name="lblCitas">CITAS-DOCTOR</string>
     <string name="LblMes1">Mes 1</string>
     <string name="LblMes2">Mes 2</string>
     <string name="LblMes3">Mes 3</string>
@@ -29,8 +26,6 @@
     <string name="LblMes8">Mes 8</string>
     <string name="LblMes9">Mes 9</string>
     <string name="title_activity_detalle_humor">Detalle Humor</string>
-
-
     <string name="DetallesMes1"></string>
     <string name="DetallesMes2"></string>
     <string name="DetallesMes3"></string>
@@ -42,7 +37,35 @@
     <string name="DetallesMes9"></string>
     <string name="title_activity_detalles_meses">DetallesMesesActivity</string>
     <string name="title_activity_detalle_embarazo">Detalle Embarazo</string>
+    <string name="title_activity_citas">Citas con el Doctor</string>
+    <string name="title_activity_agregar_cita">Nueva Cita Medica</string>
 
+    <!-- AGREGAR CITAS CON EL DOCTOR -->
+    <string name="LblAgregarTitulo">CITAS CON TU DOCTOR</string>
+    <string name="Fecha">Fecha: </string>
+    <string name="Hora">Hora: </string>
+    <string name="NombreDoctor">Nombre del Doctor:</string>
+    <string name="TipoCita">Motivo: </string>
+    <string name="Consultorio">Numero de Colsultorio: </string>
+    <string name="Ubicacion">Ubicacion: </string>
+    <string name="btnAceptar">ACEPTAR </string>
+    <string name="btnRegresar">REGRESAR </string>
+    <string name="title_activity_detalles_cita">TU CITA ES</string>
+    <string name="title_activity_modificar_citas">Modifica Tu Cita</string>
 
+    <!-- MODIFICAR CITAS CON EL DOCTOR -->
+    <string name="LblModificarTitulo">CITAS CON TU DOCTOR</string>
+    <string name="CitaFecha">Fecha: </string>
+    <string name="CitaHora">Hora: </string>
+    <string name="CitaNombre">Nombre del Doctor:</string>
+    <string name="CitaTipo">Motivo: </string>
+    <string name="CitaNumero">Numero de Colsultorio: </string>
+    <string name="CitaUbicacion">Ubicacion: </string>
+    <string name="ModificarbtnRegistrar">ACEPTAR </string>
+    <string name="ModificarbtnRegresar">REGRESAR </string>
+    <string name="btnAgregarCita">AGREGAR CITA</string>
+    <string name="MainLblTitulo">CITA</string>
+    <string name="LblDetallesTitulo">CITA</string>
+    <string name="title_activity_agrega_cita">Nueva Cita</string>
 
 </resources>

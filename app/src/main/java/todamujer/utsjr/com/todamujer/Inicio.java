@@ -7,11 +7,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 /**
- * Created by Alumno on 23/03/2015.
+ * Created by Alumno on 25/03/2015.
  */
-public class Inicio extends ActionBarActivity{
-
-
+public class Inicio extends ActionBarActivity {
 
 
     private static final int MENU_MENU=1;
@@ -41,9 +39,6 @@ public class Inicio extends ActionBarActivity{
 
 
         menu.add(Menu.NONE,MENU_MENU,Menu.NONE,"Menu");
-
-
-
         menu.add(Menu.NONE,MENU_AYUDA,Menu.NONE,"Ayuda");
         menu.add(Menu.NONE,MENU_FAVORITO,Menu.NONE,"Favoritos");
         menu.add(Menu.NONE,MENU_CONOCENOS,Menu.NONE,"Conocenos");
@@ -82,5 +77,6 @@ public class Inicio extends ActionBarActivity{
 
 
     }
-}
 
+
+}

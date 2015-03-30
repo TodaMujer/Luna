@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="todamujer.utsjr.com.todamujer.AgregaCita">
+
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:text="@string/LblAgregarTitulo"
+
+        android:textSize="25sp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtFecha"
+        android:inputType="date"
+        android:hint="@string/Fecha"
+        android:textColor="#ff000000"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtHora"
+        android:inputType="time"
+        android:hint="@string/Hora"
+        android:layout_weight="0.05"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtNombre"
+        android:inputType="text"
+        android:hint="@string/NombreDoctor"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtMotivo"
+        android:inputType="text"
+        android:hint="@string/TipoCita"
+        android:layout_weight="0.05" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtNumero"
+        android:inputType="number"
+        android:hint="@string/Consultorio"
+        android:layout_weight="0.05" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtUbicacion"
+        android:inputType="text"
+        android:hint="@string/Ubicacion"
+        android:layout_weight="0.05" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:id="@+id/BtnAceptar"
+            android:text="@string/btnAceptar"
+
+            android:background="#ff3baaa3"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:id="@+id/BtnRegresar"
+            android:text="@string/btnRegresar"
+
+            android:background="#ff3baaa3"
+            android:clickable="false"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

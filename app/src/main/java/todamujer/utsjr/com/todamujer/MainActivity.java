@@ -16,12 +16,19 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
+
+
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button boton= (Button) findViewById(R.id.Ingresar);
+
+        Button boton= (Button) findViewById(R.id.btnAceptar);
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

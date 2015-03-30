@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="todamujer.utsjr.com.todamujer.DetallesCita">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/LblDetallesTitulo"
+        android:textSize="25sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DetallesLblFecha"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DetallesLblHora"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DetallesLblNombre"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DetallesLblTipo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DetallesLblNumero"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DetallesLblUbicacion"
+        />
+
+    <!-- Botones de accon -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center|center_horizontal">
+
+
+        <ImageButton
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:id="@+id/DetallesBtnEliminar"
+            android:src="@drawable/mes1"
+            />
+
+        <ImageButton
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:id="@+id/DetallesBtnModificar"
+            android:src="@drawable/mes9"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

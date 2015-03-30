@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 
 public class MenuActivity extends ActionBarActivity {
 
-    ImageButton btnEmbarazo, btnSintomas, btnCalendario, btnHumor;
+    ImageButton btnEmbarazo, btnSintomas, btnCalendario, btnHumor, btnCitas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +22,15 @@ public class MenuActivity extends ActionBarActivity {
         btnSintomas=(ImageButton)findViewById(R.id.BtnSintomas);
         btnCalendario=(ImageButton)findViewById(R.id.BtnCalendario);
         btnHumor=(ImageButton)findViewById(R.id.BtnHumor);
+        btnCitas=(ImageButton)findViewById(R.id.BtnCitas);
 
-
+        btnCitas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MenuActivity.this,CitasActivity.class);
+                startActivity(intent);
+            }
+        });
         btnEmbarazo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
